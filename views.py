@@ -1,5 +1,6 @@
 # views.py
 import pandas as pd
+from django.db import models
 from django.http import JsonResponse
 from django.shortcuts import render
 from .models import create_dynamic_model, map_column_to_field
